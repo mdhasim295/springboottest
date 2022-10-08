@@ -9,8 +9,9 @@ public class MessageRunner implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
-		System.out.println("Welcome to Spring boot app");
-		System.out.println("hello");
+		int a=10;
+		
+		System.out.println("hello"+a);
 		
 		
 	}
